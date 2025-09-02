@@ -1,0 +1,4 @@
+requests[socks]
+pysocks
+click
+pyyaml
