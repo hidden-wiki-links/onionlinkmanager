@@ -1,0 +1,6 @@
+import pytest
+from onion_manager import validate
+
+def test_onion_validation():
+    assert validate("http://example.onion") is True
+    assert validate("invalid-url") is False
